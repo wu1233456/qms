@@ -1,0 +1,40 @@
+{
+  "private": true,
+  "scripts": {
+    "rimraf": "rimraf",
+    "clean": "rimraf -- static && rimraf -- templates ",
+    "dev": "webpack-dev-server --inline --hot --colors --watch --progress --config=webpack.config.js",
+    "prod": "npm run clean && node node_modules/webpack/bin/webpack.js --colors --progress --profile --hide-modules --display-used-exports && echo 'webpack  build complete!!!'",
+    "prod:ug": "npm run clean && node node_modules/webpack/bin/webpack.js --colors --progress --profile --hide-modules --display-used-exports && echo 'webpack  build complete!!!'"
+  },
+  "devDependencies": {
+    "array-includes": "^3.1.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-dir": "^1.3.0",
+    "copy-webpack-plugin": "^6.2.1",
+    "css-loader": "^3.6.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "favicons-webpack-plugin": "^4.2.0",
+    "file-loader": "^6.0.0",
+    "html-loader": "^1.1.0",
+    "html-webpack-harddisk-plugin": "^1.0.2",
+    "html-webpack-plugin": "^4.3.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.14.1",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "rimraf": "^3.0.2",
+    "sass-loader": "^9.0.3",
+    "style-loader": "^1.2.1",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "url-loader": "^4.1.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^5.1.4",
+    "webpack-uglify-harmony-plugin": "^1.0.0"
+  },
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "underscore": "^1.11.0"
+  }
+}

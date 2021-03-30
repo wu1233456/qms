@@ -1,0 +1,113 @@
+.s1 {
+  height: 266px;
+  background-image: url("../../../img/people-teacher-index-s1-banner.png");
+  background-repeat: no-repeat;
+  background-size: 100% 266px;
+  min-width: 1200px;
+  .title {
+    color: white;
+    line-height: 266px;
+    text-align: center;
+    font-size: 48px;
+  }
+}
+
+.s2 {
+  background-color: #F7F9FB;
+  padding-top: 20px;
+
+  .crumbs {
+    margin: auto;
+    margin-bottom: 20px;
+    font-size: 18px;
+    width: 1400px;
+
+    a:hover {
+      color: #5A9AEC;
+    }
+  }
+
+  .inner {
+    width: 1388px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .content {
+    width: 992px;
+    //height: 3518px;
+    background-color: white;
+    border: 1px solid rgba(255, 255, 255, 100);
+    padding-top: 50px;
+
+    p {
+      font-size: 20px;
+      line-height: 29px;
+      width: 903px;
+      margin: auto;
+      margin-bottom: 5px;
+      .teacher-name{
+        font-size: 24px;
+        margin-left: -15px;
+      }
+    }
+    li{
+      list-style-type:disc;
+      font-size: 20px;
+      line-height: 29px;
+      margin-left: 57px;
+      margin-bottom: 5px;
+    }
+    .title {
+      font-size: 28px;
+      font-weight: bold;
+      margin-left: 17px;
+      margin-bottom: 21px;
+      margin-top: 57px;
+    }
+    .subtitle{
+      font-size: 26px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      margin-left: 34px;
+    }
+  }
+
+  .line {
+    height: 3518px;
+    width: 2px;
+    background-color:#cdcdcd;
+  }
+
+  .img-box {
+    width: 335px;
+    height: 593px;
+    background-color: white;
+    border: 1px solid rgba(255, 255, 255, 100);
+    .img{
+      width: 228px;
+      height: 299px;
+      background-image: url("../../../img/wangyu.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      margin: auto;
+      margin-top: 34px;
+    }
+    .name{
+      width: 335px;
+      text-align: center;
+       font-size: 20px;
+      margin-bottom: 27px;
+      margin-top: 12px;
+    }
+    p{
+      margin: auto;
+      width: 310px;
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+  }
+
+
+}

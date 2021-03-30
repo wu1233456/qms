@@ -1,0 +1,18 @@
+{
+  "mysql": {
+    "diancan": {
+      "host": "192.168.11.27",
+      "port": 3306,
+      "user": "easy_drive",
+      "password": "easy_drive",
+      "database": "diancan"
+    }
+  },
+  "mongo": {
+      "host": "192.168.11.27",
+      "port": 27017,
+      "user": "easy_drive",
+      "password": "easy_drive",
+      "default_database": "test"
+  }
+}

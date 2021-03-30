@@ -1,0 +1,68 @@
+.s1 {
+  min-width: 1200px;
+  height: 266px;
+  background-image: url("../../img/people-teacher-index-s1-banner.png");
+  background-repeat: no-repeat;
+  background-size: 100% 266px;
+
+  .title {
+    color: white;
+    line-height: 266px;
+    text-align: center;
+    font-size: 48px;
+  }
+}
+
+.s2 {
+  background-color: #f7f9fb;
+
+  .title-box {
+    text-align: center;
+
+    .en-title {
+      color: #f5f5f5;
+      font-size: 160px;
+    }
+
+    .title {
+      margin-top: -100px;
+      font-size: 48px;
+    }
+
+    margin-bottom: 52px;
+  }
+
+
+  .inner {
+    width: 1200px;
+    margin: auto;
+    border: 1px solid rgba(187, 187, 187, 100);
+    background-color: white;
+    padding: 42px 130px 200px 130px;
+    .list{
+      width: 1020px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      text-align: center;
+      font-size: 20px;
+      line-height: 30px;
+      li{
+        cursor: pointer;
+        margin-bottom: 33px;
+        padding-top: 14px;
+        width: 480px;
+        height: 85px;
+
+        background-color: rgba(242, 242, 242, 100);
+        border-radius: 10px;
+        transition: .3s;
+        &:hover{
+          transform: scale(1.05);
+           box-shadow: 0px 2px 10px 1px rgba(0, 0, 0, 0.1);
+        }
+      }
+    }
+
+  }
+}

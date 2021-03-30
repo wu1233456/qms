@@ -1,0 +1,18 @@
+{
+  "mysql": {
+    "diancan": {
+      "host": "db-host",
+      "port": 3306,
+      "user": "test",
+      "password": "test",
+      "database": "test"
+    }
+  },
+  "mongo": {
+      "host": "mongo-host",
+      "port": 27017,
+      "user": "test",
+      "password": "test",
+      "default_database": "test"
+  }
+}

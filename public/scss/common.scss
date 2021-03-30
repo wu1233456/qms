@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+    // 设置页面字体为思源黑体
+    font-family: "Noto Sans SC";
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+body{
+	min-width:1200px;
+	overflow:auto;//当页面的可视区域的宽度小于页面设置的最小宽度的时候，出现滚动条
+    padding-top: 115px;
+}
+
+a{
+    color: black;
+}
+.ss-topmenu{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    z-index: 100;
+    background-color:white;
+    height: 115px;
+    color: black;
+    border-bottom: 1px solid #DDDDDD;
+    .inner{
+        width: 1200px;
+        min-width: 1200px;
+        margin:auto;
+    }
+
+    .left{
+        float: left;
+        display: flex;
+        align-items: center;
+        height: 115px;
+        width: 500px;
+        .logo{
+            height: 70px;
+            width: 70px;
+            margin-right: 5px;
+            .img{
+                 height: 70px;
+                 width: 70px;
+                 background-repeat: no-repeat;
+                 background-size: contain;
+            }
+        }
+        .logo1 .img{
+            background-image: url("../img/logo1.png");
+        }
+        .logo2 .img{
+            background-image: url("../img/logo2.png");
+        }
+        .content{
+            margin-left: 5px;
+        }
+        .title{
+          width: 252px;
+            height: 40px;
+            background:{
+                image: url("../img/topmenu-title.jpg");
+                size: contain;
+                repeat: no-repeat;
+            };
+        }
+    }
+    .right{
+        float: left;
+        //margin-right: 60px;
+        height: 96px;
+        position: relative;
+    }
+    .list{
+        display: flex;
+        font-size: 20px;
+        a{
+            z-index: 101;
+        }
+        li{
+            padding-right: 5px;
+            padding-left: 5px;
+            line-height: 96px;
+            cursor: pointer;
+            margin-right: 20px;
+        }
+        .bottomLine{    
+            height:4px;
+            background:#3482DB;
+            position: absolute;
+            bottom: 18px;
+            border-radius: 3px;
+        }
+    }
+}
+
+.foot{
+    position: relative;
+    .row1{
+        width: auto;
+        height: 236px;
+        background-image: url("../img/foot-row1-banner.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 236px;
+       
+
+       
+    }
+    .mask{
+        position: absolute;
+        background-color: rgba(45, 45, 45, .8) ;
+        width: 100%;
+        height: 236px;
+        top: 0;
+        left: 0;
+        color: white;
+        .inner{
+            padding-top: 80px;
+            width: 1200px;
+            text-align: center;
+            margin: auto;
+           .title{
+               font-size: 18px;
+                margin-bottom: 8px;
+           }
+           .content{
+               font-size: 16px;
+               line-height: 28px;
+           }
+        }
+    }
+   
+    .row2{
+        background-color: #2D2D2D;
+        height: 60px;
+        line-height: 60px;
+        a{
+            color: white;
+        }
+        .inner{
+            width: 450px;
+            margin: auto;
+            
+        }
+        ul{
+            display: flex;
+            justify-content: space-between;
+            li{
+                &:hover{
+                    >a {
+                        color: #4774B6;
+                    }
+                }
+            }
+        }
+        .active a{
+            color: #4774B6;
+            //font-weight: bold;
+        }
+    }
+    .row3{
+        border-top: 2px solid  #666666; 
+        background-color: #2D2D2D;
+        height: 60px;
+        font-size: 14px;
+        color: #969696;
+        text-align: center;
+        line-height: 60px;
+    }
+}
+.ss-copyright{
+    position: fixed;
+    bottom: 0;
+    left:50%;
+}
